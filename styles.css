@@ -1,0 +1,85 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: "Leelawadee UI", sans-serif;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFF7E5;
+  }
+  
+  .container {
+    width: 800px;
+    max-width: 80%;
+    background-color: white;
+    padding: 10px;
+    border: 2px solid #325D2F;
+    border-radius: 10px;
+  }
+  
+  .btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .red-button {
+    border: 1.5px solid hsl(356, 83%, 20%);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+  }
+  
+  
+  .green-button {
+    border: 1.5px solid hsl(85, 52%, 25%);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+  }
+  
+  .yellow-button {
+    border: 1.5px solid hsl(52, 94%, 40%);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+  }
+
+
+  .blue-button {
+    border: 1.5px solid hsl(176, 100%, 15%);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+  }
+
+
+
+  .red-button:hover {
+    box-shadow: 5px 5px gray
+  }
+
+  .green-button:hover {
+    box-shadow: 5px 5px gray
+  }
+
+  .yellow-button:hover {
+    box-shadow: 5px 5px gray
+  }
+
+  .blue-button:hover {
+    box-shadow: 5px 5px gray
+  }
+
+  
